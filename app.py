@@ -9,6 +9,12 @@ import numpy as np
 # Utils
 import joblib
 
+# Assets
+from PIL import Image
+prediction_img = Image.open("assets/prediction.png")
+prediction_proba_img = Image.open("assets/prediction_proba.png")
+visuals_img = Image.open("assets/visuals.png")
+
 # Loading Model
 with open("models/emotion_classifier_pipeline.pkl", "rb") as f:
     pipeline = joblib.load(f)
@@ -66,6 +72,14 @@ def main():
 
     else:
         st.subheader("About")
+        st.write("End-to-end NLP app which detects emotions from provided texts. Also shows the confidence and probabilities of all the emotions predicted by the model.")
+
+        # Images
+        st.image(prediction_img, caption="Prediction with confidence")
+        st.image(prediction_proba_img, caption="Prediction probabilities for all emotions")
+        st.image(visuals_img, caption="Authentic visualizations")
+
+        st.write("Made with ❤️ by Soham Ghugare")
 
 if __name__ == '__main__':
     main()
