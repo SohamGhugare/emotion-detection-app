@@ -2,5 +2,5 @@ scikit-learn
 streamlit
 seaborn
 joblib
-pandas\
+pandas
 numpy
