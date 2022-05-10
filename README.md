@@ -4,7 +4,7 @@ End-to-end NLP app which detects emotions from provided texts. Also shows the co
 
 ## Interactive Web App using Streamlit
 
-[Click here to go to the web app]()
+[Click here to go to the web app](https://share.streamlit.io/sohamghugare/emotion-detection-app/main/app.py)
 
 ### Prediction with confidence
 ![prediction_img](assets/prediction.png)
