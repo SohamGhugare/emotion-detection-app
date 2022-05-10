@@ -7,11 +7,11 @@ End-to-end NLP app which detects emotions from provided texts. Also shows the co
 [Click here to go to the web app]()
 
 ![prediction_img](assets/prediction.png)
-Prediction with confidence
+### Prediction with confidence
 
 ![proba_img](assets/prediction.png)
-Prediction probabilities for all emotions
+### Prediction probabilities for all emotions
 
 ![visuals_img](assets/prediction.png)
-Authentic visualizations
+### Authentic visualizations
 
