@@ -31,6 +31,14 @@ emotions_emoji_dict = {"anger":"😠","disgust":"🤮", "fear":"😨😱", "happ
 
 def main():
 
+    st.set_page_config(
+        page_title="Emotion Detection App",
+        page_icon="🤗",
+        layout="wide",
+        initial_sidebar_state="expanded",
+        )
+
+
     st.title("Emotion Classifier App")
 
     menu = ["Home", "Monitor", "About"]
