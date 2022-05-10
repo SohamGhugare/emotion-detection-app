@@ -45,7 +45,8 @@ def main():
     choice = st.sidebar.selectbox("Menu", menu)
 
     if choice == "Home":
-        st.subheader("Home - Emotion in Text")
+        st.subheader("Home")
+        st.write("This app detects a particular emotion from the input text.")
 
         with st.form(key="emotion_clf_form"):
             raw_text = st.text_area("Input text here")
@@ -77,6 +78,7 @@ def main():
 
     elif choice == "Monitor":
         st.subheader("Monitor App")
+        st.write("Work in progress")
 
     else:
         st.subheader("About")
